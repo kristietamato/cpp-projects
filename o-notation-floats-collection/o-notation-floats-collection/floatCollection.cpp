@@ -3,6 +3,7 @@
 #include "floatCollection.h"
 #include <string>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 floatCollection::floatCollection(float theFloat)
@@ -16,33 +17,31 @@ floatCollection::floatCollection(const floatCollection &average)
 {
     // Allocate pointer and copy the value
     floatPointer = new float;
-    *floatPointer = *average.floatPointer;
 }
 
 float floatCollection::getAverage(int arraySize)
 {
-    float sum;
-    for(int counter = 0; counter < arraySize; counter++)
+    float sum = 0;
+    for(int counter = 0; counter < arraySize + 1; counter++)
     {
-        sum = sum + insertFloat(counter, arraySize);
+        sum = sum + floatsArray[counter];
     }
-    return sum/arraySize;
+    return (sum/arraySize);
 }
 
 // O(n)
-float floatCollection::insertFloat(float value, int arraySize)
+void floatCollection::insertFloat(float value, int arraySize)
 {
-    for(int counter = arraySize; counter < arraySize + 1; counter++)
+    size_t size = 100;
+    vector<float> floatsArray(size);
+    for(int counter = 0; counter < arraySize; counter++)
     {
-        floatsArray[counter] = value;
-        cout << floatsArray[counter];
+        floatsArray[counter] = counter;
+        floatsArray.push_back(value);
     }
-    value = *floatPointer;
-
-    return *floatPointer;
 }
 
-void displayAverage(floatCollection average, int arraySize)
+void floatCollection::displayAverage(int arraySize)
 {
-    cout << "The average is " << average.getAverage(arraySize) << endl;
+    cout << "The nearest average is " << getAverage(arraySize) << endl;
 }

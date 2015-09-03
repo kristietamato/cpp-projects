@@ -50,7 +50,7 @@ int main(void)
             }
             while(!finishedInput);
 
-            displayAverage(floatCollection1, numberOfValues);
+            floatCollection1.displayAverage(numberOfValues);
         }
     }
     catch (exception e)
