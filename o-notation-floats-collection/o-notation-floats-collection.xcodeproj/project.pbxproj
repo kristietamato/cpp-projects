@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2113129A1B97EA3B00B90DC7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211312991B97EA3B00B90DC7 /* main.cpp */; };
+		211312A11B97ED1B00B90DC7 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211312A01B97ED1B00B90DC7 /* tools.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		211312961B97EA3B00B90DC7 /* o-notation-floats-collection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "o-notation-floats-collection"; sourceTree = BUILT_PRODUCTS_DIR; };
 		211312991B97EA3B00B90DC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		211312A01B97ED1B00B90DC7 /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tools.cpp; path = "../../../../classes/cs-131/Week 1/Tools/tools.cpp"; sourceTree = "<group>"; };
+		211312A21B97ED2200B90DC7 /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tools.h; path = "../../../../classes/cs-131/Week 1/Tools/tools.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				211312991B97EA3B00B90DC7 /* main.cpp */,
+				211312A01B97ED1B00B90DC7 /* tools.cpp */,
+				211312A21B97ED2200B90DC7 /* tools.h */,
 			);
 			path = "o-notation-floats-collection";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2113129A1B97EA3B00B90DC7 /* main.cpp in Sources */,
+				211312A11B97ED1B00B90DC7 /* tools.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
