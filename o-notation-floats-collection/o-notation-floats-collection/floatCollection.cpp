@@ -24,12 +24,12 @@ float floatCollection::getAverage(void)
     return *floatPointer;
 }
 
-void insertFloat(float theFloat)
+void insertFloat()
 {
     
 }
 
 void displayAverage(floatCollection average)
 {
-    cout << "The average is " << average.getAverage() << endl;
+    cout << "The nearest value to the average is " << average.getAverage() << endl;
 }

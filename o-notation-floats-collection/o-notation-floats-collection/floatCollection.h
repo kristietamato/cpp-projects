@@ -12,7 +12,7 @@ class floatCollection
     public:
         floatCollection(float theFloat); // Simple constructor
         floatCollection(const floatCollection &average); // Copy constructor
-        void insertFloat(float theFloat);
+        void insertFloat();
         float getAverage(void);
     
     private:
