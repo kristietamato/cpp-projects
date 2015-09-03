@@ -1,17 +1,18 @@
 //  main.cpp
 //  Created by Kristie Nguyen on 9/15.
-//  o-notation-floats-collection
 
 #include <iostream>
 #include <string>
 #include "tools.h"
+#include "floatCollection.h"
 using namespace std;
 
 int main(void)
 {
     try
     {
-        
+        floatCollection floatCollection(19);
+        displayAverage(floatCollection);
     }
     catch (exception e)
     {
@@ -19,16 +20,3 @@ int main(void)
     }
     return 0;
 }
-
-class floatCollection
-{
-    public:
-        float getFloat( void );
-        floatCollection( float theFloat );
-        floatCollection( const floatCollection &obj);
-        ~floatCollection();
-    
-    private:
-    float *floatPointer;
-
-};

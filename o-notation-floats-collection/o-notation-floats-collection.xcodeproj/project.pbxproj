@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2113129A1B97EA3B00B90DC7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211312991B97EA3B00B90DC7 /* main.cpp */; };
 		211312A11B97ED1B00B90DC7 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211312A01B97ED1B00B90DC7 /* tools.cpp */; };
+		211312A51B98A7C600B90DC7 /* floatCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211312A31B98A7C600B90DC7 /* floatCollection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		211312991B97EA3B00B90DC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		211312A01B97ED1B00B90DC7 /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tools.cpp; path = "../../../../classes/cs-131/Week 1/Tools/tools.cpp"; sourceTree = "<group>"; };
 		211312A21B97ED2200B90DC7 /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tools.h; path = "../../../../classes/cs-131/Week 1/Tools/tools.h"; sourceTree = "<group>"; };
+		211312A31B98A7C600B90DC7 /* floatCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = floatCollection.cpp; sourceTree = "<group>"; };
+		211312A41B98A7C600B90DC7 /* floatCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatCollection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				211312991B97EA3B00B90DC7 /* main.cpp */,
 				211312A01B97ED1B00B90DC7 /* tools.cpp */,
 				211312A21B97ED2200B90DC7 /* tools.h */,
+				211312A31B98A7C600B90DC7 /* floatCollection.cpp */,
+				211312A41B98A7C600B90DC7 /* floatCollection.h */,
 			);
 			path = "o-notation-floats-collection";
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211312A51B98A7C600B90DC7 /* floatCollection.cpp in Sources */,
 				2113129A1B97EA3B00B90DC7 /* main.cpp in Sources */,
 				211312A11B97ED1B00B90DC7 /* tools.cpp in Sources */,
 			);
