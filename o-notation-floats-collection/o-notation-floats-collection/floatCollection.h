@@ -10,10 +10,10 @@ using namespace std;
 class floatCollection
 {
     public:
-        float getFloatAverage(void);
         floatCollection(float theFloat); // Simple constructor
         floatCollection(const floatCollection &average); // Copy constructor
-        ~floatCollection(); // Destructor
+        void insertFloat(float theFloat);
+        float getAverage(void);
     
     private:
         float *floatPointer;

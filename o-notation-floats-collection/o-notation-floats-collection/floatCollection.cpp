@@ -19,18 +19,17 @@ floatCollection::floatCollection(const floatCollection &average)
     *floatPointer = *average.floatPointer;
 }
 
-floatCollection::~floatCollection(void)
-{
-    // Delete object
-    delete floatPointer;
-}
-
-float floatCollection::getFloatAverage(void)
+float floatCollection::getAverage(void)
 {
     return *floatPointer;
 }
 
+void insertFloat(float theFloat)
+{
+    
+}
+
 void displayAverage(floatCollection average)
 {
-    cout << "The average is " << average.getFloatAverage() << endl;
+    cout << "The average is " << average.getAverage() << endl;
 }
