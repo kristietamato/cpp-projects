@@ -1,5 +1,6 @@
-//  main.cpp
-//  Created by Kristie Nguyen on 9/15.
+// main.cpp
+// Created by Kristie Nguyen on 9/15.
+// Big O Notation Float Collection - worst case scenario for the average of float collections.
 
 #include <iostream>
 #include <string>
@@ -18,19 +19,27 @@ int main(void)
         {
             bool finishedInput = false;
             int value;
+            int numberOfValues = 0;
+
             do
             {
                 value = getBoundedInt("Enter a data item, or 0 if you may be finished: ", 0, 100);
                 if(value != 0)
                 {
+                    numberOfValues++;
+
                     // Insert value
+                    floatCollection1.insertFloat(value, numberOfValues);
                 }
                 else
                 {
                     // Ask if it's a value to be included
                     if(getBool("Do you want to add 0 to the collection? "))
                     {
+                        numberOfValues++;
+
                         // Insert value
+                        floatCollection1.insertFloat(value, numberOfValues);
                         cout << "Value included." << endl;
                     }
                     else
@@ -41,7 +50,7 @@ int main(void)
             }
             while(!finishedInput);
 
-            displayAverage(floatCollection1);
+            displayAverage(floatCollection1, numberOfValues);
         }
     }
     catch (exception e)

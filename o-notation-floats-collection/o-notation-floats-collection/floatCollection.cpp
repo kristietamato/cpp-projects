@@ -1,4 +1,4 @@
-//  floatCollection.cpp
+// floatCollection.cpp
 
 #include "floatCollection.h"
 #include <string>
@@ -19,17 +19,30 @@ floatCollection::floatCollection(const floatCollection &average)
     *floatPointer = *average.floatPointer;
 }
 
-float floatCollection::getAverage(void)
+float floatCollection::getAverage(int arraySize)
 {
+    float sum;
+    for(int counter = 0; counter < arraySize; counter++)
+    {
+        sum = sum + insertFloat(counter, arraySize);
+    }
+    return sum/arraySize;
+}
+
+// O(n)
+float floatCollection::insertFloat(float value, int arraySize)
+{
+    for(int counter = arraySize; counter < arraySize + 1; counter++)
+    {
+        floatsArray[counter] = value;
+        cout << floatsArray[counter];
+    }
+    value = *floatPointer;
+
     return *floatPointer;
 }
 
-void insertFloat()
+void displayAverage(floatCollection average, int arraySize)
 {
-    
-}
-
-void displayAverage(floatCollection average)
-{
-    cout << "The nearest value to the average is " << average.getAverage() << endl;
+    cout << "The average is " << average.getAverage(arraySize) << endl;
 }

@@ -64,10 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				211312991B97EA3B00B90DC7 /* main.cpp */,
-				211312A31B98A7C600B90DC7 /* floatCollection.cpp */,
 				211312A41B98A7C600B90DC7 /* floatCollection.h */,
-				211312A01B97ED1B00B90DC7 /* tools.cpp */,
+				211312A31B98A7C600B90DC7 /* floatCollection.cpp */,
 				211312A21B97ED2200B90DC7 /* tools.h */,
+				211312A01B97ED1B00B90DC7 /* tools.cpp */,
 			);
 			path = "o-notation-floats-collection";
 			sourceTree = "<group>";
