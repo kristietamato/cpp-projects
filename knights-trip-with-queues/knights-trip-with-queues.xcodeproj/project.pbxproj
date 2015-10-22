@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211A0B071BD6A5C600351B6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211A0B061BD6A5C600351B6B /* main.cpp */; };
+		211A0B0F1BD6A6FA00351B6B /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211A0B0D1BD6A6FA00351B6B /* Position.cpp */; };
+		211A0B151BD6DB7C00351B6B /* ChessPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211A0B131BD6DB7C00351B6B /* ChessPiece.cpp */; };
+		211A0B1B1BD70A4700351B6B /* KnightsTripHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 211A0B191BD70A4700351B6B /* KnightsTripHelper.cpp */; };
+		21A303E61BD715FC00FACA1B /* Tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21A303E41BD715FC00FACA1B /* Tools.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		211A0B011BD6A5C600351B6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		211A0B031BD6A5C600351B6B /* knights-trip-with-queues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "knights-trip-with-queues"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211A0B061BD6A5C600351B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		211A0B0D1BD6A6FA00351B6B /* Position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cpp; sourceTree = "<group>"; };
+		211A0B0E1BD6A6FA00351B6B /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		211A0B131BD6DB7C00351B6B /* ChessPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessPiece.cpp; sourceTree = "<group>"; };
+		211A0B141BD6DB7C00351B6B /* ChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPiece.h; sourceTree = "<group>"; };
+		211A0B171BD6FEB200351B6B /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		211A0B191BD70A4700351B6B /* KnightsTripHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnightsTripHelper.cpp; sourceTree = "<group>"; };
+		211A0B1A1BD70A4700351B6B /* KnightsTripHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnightsTripHelper.h; sourceTree = "<group>"; };
+		21A303E41BD715FC00FACA1B /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tools.cpp; sourceTree = "<group>"; };
+		21A303E51BD715FC00FACA1B /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211A0B001BD6A5C600351B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211A0AFA1BD6A5C600351B6B = {
+			isa = PBXGroup;
+			children = (
+				211A0B051BD6A5C600351B6B /* knights-trip-with-queues */,
+				211A0B041BD6A5C600351B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		211A0B041BD6A5C600351B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211A0B031BD6A5C600351B6B /* knights-trip-with-queues */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		211A0B051BD6A5C600351B6B /* knights-trip-with-queues */ = {
+			isa = PBXGroup;
+			children = (
+				211A0B061BD6A5C600351B6B /* main.cpp */,
+				211A0B1A1BD70A4700351B6B /* KnightsTripHelper.h */,
+				211A0B191BD70A4700351B6B /* KnightsTripHelper.cpp */,
+				211A0B171BD6FEB200351B6B /* Search.h */,
+				211A0B141BD6DB7C00351B6B /* ChessPiece.h */,
+				211A0B131BD6DB7C00351B6B /* ChessPiece.cpp */,
+				211A0B0E1BD6A6FA00351B6B /* Position.h */,
+				211A0B0D1BD6A6FA00351B6B /* Position.cpp */,
+				21A303E51BD715FC00FACA1B /* Tools.h */,
+				21A303E41BD715FC00FACA1B /* Tools.cpp */,
+			);
+			path = "knights-trip-with-queues";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211A0B021BD6A5C600351B6B /* knights-trip-with-queues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211A0B0A1BD6A5C600351B6B /* Build configuration list for PBXNativeTarget "knights-trip-with-queues" */;
+			buildPhases = (
+				211A0AFF1BD6A5C600351B6B /* Sources */,
+				211A0B001BD6A5C600351B6B /* Frameworks */,
+				211A0B011BD6A5C600351B6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "knights-trip-with-queues";
+			productName = "knights-trip-with-queues";
+			productReference = 211A0B031BD6A5C600351B6B /* knights-trip-with-queues */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211A0AFB1BD6A5C600351B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kristie Nguyen";
+				TargetAttributes = {
+					211A0B021BD6A5C600351B6B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 211A0AFE1BD6A5C600351B6B /* Build configuration list for PBXProject "knights-trip-with-queues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 211A0AFA1BD6A5C600351B6B;
+			productRefGroup = 211A0B041BD6A5C600351B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				211A0B021BD6A5C600351B6B /* knights-trip-with-queues */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211A0AFF1BD6A5C600351B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211A0B151BD6DB7C00351B6B /* ChessPiece.cpp in Sources */,
+				21A303E61BD715FC00FACA1B /* Tools.cpp in Sources */,
+				211A0B1B1BD70A4700351B6B /* KnightsTripHelper.cpp in Sources */,
+				211A0B0F1BD6A6FA00351B6B /* Position.cpp in Sources */,
+				211A0B071BD6A5C600351B6B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		211A0B081BD6A5C600351B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		211A0B091BD6A5C600351B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		211A0B0B1BD6A5C600351B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		211A0B0C1BD6A5C600351B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211A0AFE1BD6A5C600351B6B /* Build configuration list for PBXProject "knights-trip-with-queues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211A0B081BD6A5C600351B6B /* Debug */,
+				211A0B091BD6A5C600351B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211A0B0A1BD6A5C600351B6B /* Build configuration list for PBXNativeTarget "knights-trip-with-queues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211A0B0B1BD6A5C600351B6B /* Debug */,
+				211A0B0C1BD6A5C600351B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 211A0AFB1BD6A5C600351B6B /* Project object */;
+}

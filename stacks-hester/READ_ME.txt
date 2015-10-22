@@ -1,0 +1,3 @@
+It would be much simpler if I wasn't worried about operator order...
+
+Try strings like: ((a+b)*c+(b+(c)))
